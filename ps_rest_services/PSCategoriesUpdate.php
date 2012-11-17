@@ -10,9 +10,10 @@
 <?php
 // Here we define constants /!\ You need to replace this parameters
 define('DEBUG', true);
-define('PS_SHOP_PATH', 'http://69.89.31.90/~artidogc');
-define('PS_WS_AUTH_KEY', '63HRLXI216UYDB0AUPRISCHF1DZ9UKN2');
-require_once('./PSWebServiceLibrary.php');
+define('PS_SHOP_PATH', 'localhost');
+define('PS_WS_AUTH_KEY', 'xxxxxxxxxxxxxxxxxxx');
+require_once('PSWebServiceLibrary.php');
+
 
 // First : We always get the categories's list or a specific one
 try
